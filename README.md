@@ -96,29 +96,6 @@ A separate frontend (React SPA) is intended to connect to this backend, providin
 
 *(Note: This project description focuses on the backend. The frontend is a separate React application that will connect to this backend. Installation steps for the frontend would typically involve navigating to its directory, installing its dependencies, and starting its development server.)*
 
-## 🔑 Environment Variables
-
-Create a file named `.env` in the root of your project and add the following environment variables. Replace the placeholder values with your actual credentials and settings.
-
-```env
-PORT=8000
-MONGODB_URI="mongodb://localhost:27017/your_database_name"
-CORS_ORIGIN="*" # Or your frontend URL, e.g., http://localhost:3000
-
-ACCESS_TOKEN_SECRET="your_access_token_secret_here"
-ACCESS_TOKEN_EXPIRY="1h"
-REFRESH_TOKEN_SECRET="your_refresh_token_secret_here"
-REFRESH_TOKEN_EXPIRY="10d"
-
-CLOUDINARY_CLOUD_NAME="your_cloudinary_cloud_name"
-CLOUDINARY_API_KEY="your_cloudinary_api_key"
-CLOUDINARY_API_SECRET="your_cloudinary_api_secret"
-
-MAILTRAP_HOST="smtp.mailtrap.io"
-MAILTRAP_PORT=2525
-MAILTRAP_USER="your_mailtrap_username"
-MAILTRAP_PASS="your_mailtrap_password"
-```
 
 ## 🧠 API Endpoints Documentation
 
